@@ -1,0 +1,39 @@
+*{
+padding: 0%;
+margin: 0;
+box-sizing: border-box;
+font-family: "Pen Sans";
+}
+
+body{
+    background-image: url("Oi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+div.container{
+width: 100%;
+max-width: 600px;
+background-color: transparent;
+border: 2px solid #fff;
+backdrop-filter: blur(10px);     /* Borrado*/
+-webkit-backdrop-filter: blur(10px);
+text-align: justify;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 20px; /* Formato da borda (arredondada/retangular)*/
+padding: 15px 2%;
+color: white
+
+}
+
+p{
+font-size: 22px;
+font-weight: 300;
+
+}
